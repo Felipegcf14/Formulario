@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#titulo{
+    font-family: fantasy;
+    color: #00ff80;
+    margin-left: 7%;   
+}
+
+#subtitulo{
+    font-family: monospace;
+    color: #00ffff;
+    margin-left: 10%;   
+}
+
+fieldset {
+    border: 10000px;
+}
+
+body{
+    background-color: #35363A;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #00ffff;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: o.2em;
+    color: #00ffff;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+
+.campo select option{
+    padding-right: 1em;
+    color: #29e732;
+
+}
+
+.grupo {
+    font-size: small;
+
+}
+
+
+.botao{
+    font-size: 20px;
+    background: #00ff80;
+    border: 0;
+    margin-bottom: 1em;
+    color: #808080;
+    padding: 0.2em 2em;
+    box-shadow: 2px 2px 2px #131819;
+    text-shadow: 1px 1px 1px #131819;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background-color: #29e732;
+    box-shadow: inset 2px 2px 2px #0000;
+    text-shadow: #0000;
+}
+
+#check{
+    display: inline-block;
+}
